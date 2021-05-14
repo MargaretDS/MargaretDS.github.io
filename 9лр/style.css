@@ -360,7 +360,7 @@ position: absolute;
 width: 241px;
 height: 30%;
 left: 255px;
-top: 60%;
+top: 70%;
 
 font-family: Roboto Slab;
 font-style: normal;
@@ -376,9 +376,9 @@ color: #EAFFFE;}
 {
     position: absolute;
     width: 300px;
-    height: 43px;
+    height: 30%;
     left: 1001px;
-    top: 60%;
+    top: 70%;
     
     font-family: Roboto Slab;
     font-style: normal;
