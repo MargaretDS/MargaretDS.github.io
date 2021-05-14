@@ -303,18 +303,18 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
 position: absolute;
 width: 100%;
-height: 455px;
+height: 20%px;
 left: 0px;
-top: 240px;
+top: 30%px;
 
 }
  #subcontent
  {
     position: absolute;
-    width: 753px;
-    height: 45px;
-    left: 311px;
-    top: 2px;
+    width: 100%;
+    height: 60%;
+    left: 0%;
+    top: 20%;
     
     font-family: Red Rose;
     font-style: normal;
