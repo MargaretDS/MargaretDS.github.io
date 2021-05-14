@@ -339,7 +339,7 @@ top: 30%px;
 width: 209px;
 height: 21px;
 left: 70px;
-top: 722px;
+top: 60%;
 
 font-family: Roboto Slab;
 font-style: normal;
@@ -358,9 +358,9 @@ color: #EAFFFE;
 
 position: absolute;
 width: 241px;
-height: 75px;
+height: 30%;
 left: 255px;
-top: 705px;
+top: 60%;
 
 font-family: Roboto Slab;
 font-style: normal;
@@ -378,7 +378,7 @@ color: #EAFFFE;}
     width: 300px;
     height: 43px;
     left: 1001px;
-    top: 705px;
+    top: 60%;
     
     font-family: Roboto Slab;
     font-style: normal;
