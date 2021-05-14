@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Page Title</title>
+</head>
+<body>
+
+<script>
+function shifr (b) {
+b.disabled = document.getElementById ('txt').readOnly = true;
+var S = document.getElementById ('txt').value.split (''), N = [], K = [], G = [],
+R = []; for  (var H = Math.ceil (S.length / 8), j = S.length, lj = H * 8; j < lj;
+j++) S [j] = ' '; 
+while (S.length) G [G.length] = S.splice (0, H);
+ for (var i = j= 0; j < 8; j++)  N [j] = j + 1; 
+while (N.length) K [K.length] = N.splice ((Math.
+random () * N.length), 1);  
+for (R [0] = []; i < H; R [i] = R [i].join (''), i++,
+R [i] = []) 
+ for (j = 0; j < 8; j++)  R [i]  [j] = G  [K [j] - 1]  [i]; document.
+getElementById ('key').value = K.join (''); document.getElementById ('cod').value
+= R.join ('')} // исходный текст в программе дополняется пробелами до кратности 8
+</script>
+ 
+<p><textarea id="txt" rows="10" cols="70">Введите исходный текст</textarea>
+<p><input type="button" value="Зашифровать!" onclick="shifr (this)">
+<p><input id="key" size="40" value="Здесь будет числовой ключ" readonly>
+<p><textarea id="cod" rows="10" cols="70" readonly>Здесь будет шифр</textarea>
+
+</body>
+</html>
