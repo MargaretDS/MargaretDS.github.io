@@ -160,7 +160,7 @@ color: #435458;
 #submenu2
 {
     position: absolute;
-    width: 256px;
+    width: 20%;
     height: 88px;
     left: 52px;
     top: 0px;
@@ -183,7 +183,7 @@ color: #435458;
 #submenu3
  {
     position: absolute;
-width: 150px;
+width: 16%;
 height: 89px;
 left: 357px;
 top: 1px;
@@ -206,7 +206,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  }
  #submenu4
 {position: absolute;
-    width: 206px;
+    width: 16%;
     height: 44px;
     left: 556px;
     top: 23px;
@@ -229,7 +229,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 #submenu5
 {
     position: absolute;
-width: 123px;
+width: 16%;
 height: 44px;
 left: 811px;
 top: 22px;
@@ -252,7 +252,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 #submenu6
  {
     position: absolute;
-width: 124px;
+width: 16%;
 height: 44px;
 left: 983px;
 top: 22px;
@@ -276,7 +276,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  #submenu7
  {
     position: absolute;
-width: 194px;
+width: 16%;
 height: 44px;
 left: 1156px;
 top: 23px;
